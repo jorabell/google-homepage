@@ -4,33 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Google</title>
 </head>
 <body>
     <div class="page">
         <!-- NAVIGATION -->
         <nav class="navigation">
-            <a href="#">About</a>
-            <a href="#">Store</a>
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <a href="#">Apps</a>
-            <a href="#">Sign In</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Store</a>
+            <a class="nav-link shove-right" href="#">Gmail</a>
+            <a class="nav-link" href="#">Images</a>
+            <a class="nav-link" href="#">Apps</a>
+            <a class="nav-link sign-in" href="#">Sign In</a>
         </nav>
         <!-- MAIN -->
         <main class="main">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
-            <button>Google Search</button><button>I'm Feeling Lucky</button>
+            <input class="search-input" type="text" size=40>
+            <div>
+                <a class="search-button" href="#">Google Search</a>
+                <a class="search-button" href="#">I'm Feeling Lucky</a>
+            </div>
             <p>Google offered in: <a href="#">Français</a></p>
         </main>
         <!-- FOOTER -->
         <footer class="footer">
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search Works</a>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
+            <a class="footer-link" href="#">Advertising</a>
+            <a class="footer-link" href="#">Business</a>
+            <a class="footer-link" href="#">How Search Works</a>
+            <a class="footer-link shove-right" href="#">Privacy</a>
+            <a class="footer-link" href="#">Terms</a>
+            <a class="footer-link" href="#">Settings</a>
         </footer>
     </div>
 </body>
