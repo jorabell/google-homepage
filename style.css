@@ -13,6 +13,10 @@ a:hover {
     text-decoration: underline;
 }
 
+a:visited {
+    color: #222;
+}
+
 .page {
     display: flex;
     flex-direction: column;
@@ -32,6 +36,20 @@ a:hover {
     padding: 12px;
 }
 
+.apps-icon {
+    color: rgb(88, 88, 88);
+    padding: 8px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.apps-icon:hover {
+    background-color: rgb(238, 238, 238);
+    color: #222;
+}
+
 .sign-in {
     color: white;
     background-color: #2976db;
@@ -43,8 +61,12 @@ a:hover {
 }
 
 .sign-in:hover {
-    background-color: #2b7de9;
+    background-color: #3587f1;
     text-decoration: none;
+}
+
+.sign-in:visited {
+    color: white;
 }
 
 @media only screen and (min-width: 800px) {
@@ -59,18 +81,46 @@ a:hover {
     align-items: center;
 }
 
+.logo {
+    padding-top: 100px;
+}
+
+.search-input {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 20px;
+}
+
+.search-input:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.search-input:focus {
+    outline: none;
+}
+
 .search-button {
     display: inline-block;
     padding: 8px;
     margin: 12px;
+    border: 1px solid rgb(241, 241, 241);
     color: #222;
     background-color: rgb(247, 247, 247);
-    border-radius: 4px;
+    border-radius: 8px;
     min-width: 60px;
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
 }
+
+.search-button:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    text-decoration: none;
+}
+
 .footer {
     display: flex;
     position: absolute;
@@ -96,4 +146,9 @@ a:hover {
 .footer-link {
     display: inline-block;
     padding: 20px;
+    color: rgb(104, 104, 104)
+}
+
+.footer-link:visited {
+    color: rgb(104, 104, 104)
 }
